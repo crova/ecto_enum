@@ -1,4 +1,5 @@
 defmodule EctoEnum do
+@compile :nowarn_unused_vars
   @moduledoc """
   Provides `defenum/2` and `defenum/3` macro for defining an Enum Ecto type.
 
